@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+}
+.conteudo{
+    float: left;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    clear: both;
+    width: 800px;
+}
+.conteudo > h1{
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    border: 1px solid darkgray;
+    margin-bottom: 20px 0;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.row{
+    clear: both;
+}
+.collumn{
+    float: left;
+    margin: 20px;
+}
+.collumn > label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.collumn > input{
+    
+}
+.collumn > input[type=submit]{
+    height: 25px;
+}
+#employee tr{
+    float: left;
+    clear: both;
+    width: 750px;
+    min-width: 100px;
+    margin-left: 5px;
+}
+#employee tr > td{
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+}
+#employee-total tr{
+    float: left;
+    clear: both;
+    width: 750px;
+    min-width: 100px;
+    margin-left: 5px;
+    border-top: 1px solid black;
+    
+}
+#employee-total tr > td{
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;

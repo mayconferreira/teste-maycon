@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payroll Summary Report</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="conteudo">
+        <h1>Employee</h1>
+    <div class="row">
+            
+            <form id="employeetForm">
+                <div class="collumn">
+                    <label for="employeetName">Name</label>
+                    <input name="employeetName" id="employeetName" type="text" placeholder="Kyuubi" required="required">    
+                </div>
+                
+                <div class="collumn">
+                    <label for="employeetSallary">Sallary</label>
+                    <input name="employeeSalary" id="employeeSalary" type="text" placeholder="10000.00" required="required">
+                </div>
+                
+                <div class="collumn">
+                    <label>&nbsp;</label>
+                    <input type="submit" value="Add">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+    <div class="conteudo">
+        <h1>Payroll Summary Report</h1>
+        <table id="employee">
+        </table>        
+        <table id="employee-total">
+            <tr>
+                <td>Total</td>
+                <td>13788.00</td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="js/EmployeeService.js"></script>
+    <script src="js/EmployeeController.js"></script>
+    <script src="js/HTMLService.js"></script>
+    
+    
+</body>
+</html>
